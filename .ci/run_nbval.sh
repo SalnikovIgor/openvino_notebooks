@@ -17,5 +17,4 @@ while (( "$#" )); do
   esac
 done
 
-export PYTHONHTTPSVERIFY=0
-python3 -m pytest --nbval ${IGNORED_NOTEBOOKS} .
+PYTHONHTTPSVERIFY=0 python3 -m pytest --nbval ${IGNORED_NOTEBOOKS} .
