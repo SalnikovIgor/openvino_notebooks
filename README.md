@@ -179,3 +179,4 @@ or create an [issue](https://github.com/openvinotoolkit/openvino_notebooks/issue
 ---
 
 \* Other names and brands may be claimed as the property of others.
+
