@@ -17,4 +17,4 @@ while (( "$#" )); do
   esac
 done
 
-PYTHONHTTPSVERIFY=0 python3 -m pytest --nbval ${IGNORED_NOTEBOOKS} .
+python3 -m pytest --nbval --nbval-cell-timeout=300 ${IGNORED_NOTEBOOKS} .
